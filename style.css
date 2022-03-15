@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+debug{
+    border: 2px solid black;
+}
+header{
+    background-color:rgb(29, 29, 92);
+    width: 100%;
+    height: 90px;
+}
+.sezione1{
+background-color: rgb(32, 146, 102);
+width: 100%;
+}
+.col{
+    border: 2px solid black;
+   
+}
