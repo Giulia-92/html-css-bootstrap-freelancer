@@ -33,29 +33,28 @@ p{
     line-height:40px;
 }
 
-.card img{
+img{
     position: relative;
 }
 
 
-.card:hover .overlay{
-        visibility: visible;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 50px;
-
-
+img:hover {
+        
 }
-.overlay{
+.layover{
     position: absolute;
     top:0;
     left:0;
     right:0;
     bottom:0;
     background-color: rgba(25, 165, 67, 0.616);
-    cursor: pointer;
-    visibility: hidden;
+    
+ }
+ .layover i.fa-regular fa{
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%,-50%);
  }
 footer{
     width: 100%;
