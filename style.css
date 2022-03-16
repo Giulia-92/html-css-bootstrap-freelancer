@@ -33,13 +33,16 @@ p{
     line-height:40px;
 }
 
-img{
+.card{
     position: relative;
 }
 
 
-img:hover {
-        
+.card:hover .layover{
+    background-color: rgba(25, 165, 67, 0.616);
+}
+.card:hover .layover  i.fa-regular{
+    display: block;
 }
 .layover{
     position: absolute;
@@ -47,14 +50,17 @@ img:hover {
     left:0;
     right:0;
     bottom:0;
-    background-color: rgba(25, 165, 67, 0.616);
+    
     
  }
- .layover i.fa-regular fa{
+ .layover i.fa-regular{
      position: absolute;
      top:50%;
      left:50%;
      transform: translate(-50%,-50%);
+     font-size: 70px;
+     color: white;
+     display: none;
  }
 footer{
     width: 100%;
