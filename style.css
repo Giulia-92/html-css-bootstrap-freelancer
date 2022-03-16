@@ -4,14 +4,13 @@
     box-sizing: border-box;
 }
 debug{
-    border: 2px solid black;
+    border: 2px solid rgb(97, 90, 90);
 }
 header{
     background-color:rgb(29, 29, 92);
     width: 100%;
     height: 90px;
 }
-
 
 .jumbo{
     height:450px;
@@ -33,20 +32,40 @@ p{
     color: white;
     line-height:40px;
 }
-main ,footer{
-    color:white;
+
+.card img{
+    position: relative;
+}
+
+
+.card:hover .overlay{
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+
+
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(25, 165, 67, 0.616);
+    cursor: pointer;
+    visibility: hidden;
+ }
+footer{
+    width: 100%;
+    background-color:rgb(20, 20, 37);
+    height: 100px;
+}
+.footer2{
+    width: 100%;
+    background-color:rgb(34, 34, 68);
+    height:70px;
     text-align: center;
-}
-.space:after{
-    content: '';
-    
-    width: 15%;
-    background-color: white;
-    line-height:4px;
-}
-.space:before{
-
-}
-.card{
-
+    padding-top: 3%;
 }
